@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link } from 'react-router-dom'
 import { Container,Navbar } from 'react-bootstrap';
 
 const Nav = () => {
@@ -13,9 +13,16 @@ const Nav = () => {
     <Navbar.Collapse className="justify-content-end">
       <Navbar.Text>
           <ul className='links'>
-            <li>   <a className="buttons"href="/food">Food</a></li>
+            <li> <Link to="/food">food</Link></li>
+            <li> <Link to="/confectionary">confectionary</Link></li>
+            <li> <Link to="/drinks">drinks</Link></li>
+
+          {/* <li>   <a href="/food">food</a></li>
+            <li>   <a href="/food">food</a></li>
             <li>   <a href="/confectionary">Confectionary</a></li>
-            <li>   <a href="/drinks">Drinks</a></li>
+            <li>   <a href="/drinks">Drinks</a></li> */}
+
+            
           </ul>
       </Navbar.Text>
     </Navbar.Collapse>
