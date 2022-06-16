@@ -7,10 +7,10 @@ const Nav = () => {
     <div>
         
 <Navbar className='nav'>
-  <Container>
+  <Container className='navhome'>
     <Navbar.Brand><Link to="/">Home</Link></Navbar.Brand>
     <Navbar.Toggle />
-    <Navbar.Collapse className="justify-content-end">
+    <Navbar.Collapse className="justify-content-end"> 
       <Navbar.Text>
           <ul className='links'>
             <li> <Link to="/food">Food</Link></li>

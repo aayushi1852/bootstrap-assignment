@@ -20,6 +20,11 @@ video {
   list-style-type: none;
   padding-left: 40px;
 }
+.navhome Link{
+  list-style-type: none;
+  padding-left: 40px;
+}
+
 .main li {
   list-style-type: none;
   padding: 40px;
@@ -118,7 +123,7 @@ video {
   }
   .main li {
  
-    padding: 30px;
+    padding: 25px;
     
   }
   
@@ -131,10 +136,13 @@ video {
   }
   .main{
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
     flex-direction: column;
+    /* justify-content: center;
+    align-items: center;
+    justify-items: center; */
     position: absolute;
-    left: 30%;
+    left: 50%;
     text-decoration: none;
   } 
 
