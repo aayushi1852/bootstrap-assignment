@@ -124,10 +124,35 @@ video {
   
 }
 
+@media only screen and (max-width: 667px) {
+
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+    text-decoration: none;
+  } 
+
+  .main li {
+ 
+    padding: 20px;
+    
+  }
+  
+  
+}
+
+
+/* 
 @media only screen{
 
   .cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .main{
     display: flex;
@@ -146,6 +171,6 @@ video {
   }
   
   
-}
+} */
 
 
