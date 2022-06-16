@@ -8,14 +8,14 @@ const Nav = () => {
         
 <Navbar className='nav'>
   <Container>
-    <Navbar.Brand href="/">Home</Navbar.Brand>
+    <Navbar.Brand><Link to="/">Home</Link></Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">
       <Navbar.Text>
           <ul className='links'>
-            <li> <Link to="/food">food</Link></li>
-            <li> <Link to="/confectionary">confectionary</Link></li>
-            <li> <Link to="/drinks">drinks</Link></li>
+            <li> <Link to="/food">Food</Link></li>
+            <li> <Link to="/confectionary">Confectionary</Link></li>
+            <li> <Link to="/drinks">Drinks</Link></li>
 
           {/* <li>   <a href="/food">food</a></li>
             <li>   <a href="/food">food</a></li>

@@ -10,9 +10,9 @@ const Home = () => {
     <video src={video} autoPlay loop muted/>      
         <div className="main">
             
-        <li> <Link to="/food">food</Link></li>
-        <li> <Link to="/confectionary">confectionary</Link></li>
-        <li> <Link to="/drinks">drinks</Link></li>
+        <li> <Link to="/food">Food</Link></li>
+        <li> <Link to="/confectionary">Confectionary</Link></li>
+        <li> <Link to="/drinks">Drinks</Link></li>
 
 {/* 
             <li>   <a href="/food" target="_blank">Food</a></li>
