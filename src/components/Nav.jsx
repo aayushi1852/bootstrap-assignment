@@ -8,7 +8,7 @@ const Nav = () => {
         
 <Navbar className='nav'>
   <Container className='navhome'>
-    <Navbar.Brand><Link to="/Bootstrap-assignment">Home</Link></Navbar.Brand>
+    <Navbar.Brand><Link to="/bootstrap-assignment">Home</Link></Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end"> 
       <Navbar.Text>

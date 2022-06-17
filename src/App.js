@@ -19,10 +19,10 @@ function App() {
       <header className="App-header"></header>
         <Nav />
       <Routes>
-          <Route path="/Drinks" element={ <Drinks />} />
-          <Route path="/Confectionary" element={ <Confectionary />} />
-          <Route path="/Food" element={ <Food />} />
-          <Route path="/Bootstrap-assignment" element={ <Home/>} />
+          <Route path="/drinks" element={ <Drinks />} />
+          <Route path="/confectionary" element={ <Confectionary />} />
+          <Route path="/food" element={ <Food />} />
+          <Route path="/bootstrap-assignment" element={ <Home/>} />
          
           
     </Routes>
