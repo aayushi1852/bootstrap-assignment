@@ -18,7 +18,7 @@ const Food = () => {
             <Card.Text>
             Banana chips are deep-fried or dried, generally crispy slices of bananas.They can be sweet or savory and covered with sugar, honey, salt, or various spices.
             </Card.Text>
-            <Button variant="primary">Buy Now</Button>
+            <Button variant="primary">Order Now</Button>
             </Card.Body>
     </Card>
 
@@ -29,7 +29,7 @@ const Food = () => {
         <Card.Text>
         Jollof rice is a unifying dish across West Africa.The dish is typically made with long-grain rice, tomatoes, onions, spices, vegetables and meat in a single pot,
         </Card.Text>
-        <Button variant="primary">Buy Now</Button>
+        <Button variant="primary">Order Now</Button>
         </Card.Body>
     </Card>
 
@@ -40,7 +40,7 @@ const Food = () => {
     <Card.Text>
     Yam and eggs recipe made with succulent boiled yam and fried eggs garnished with vegetables. Yam is highly nutritious and contains less starch than potatoes.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 
@@ -51,7 +51,7 @@ const Food = () => {
     <Card.Text>
     Barfi is a popular Indian milk based sweet recipe.Milk Barfi or Milk Powder Burfi is a super delicious and one of the best gluten free, no bake dessert.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 
@@ -62,7 +62,7 @@ const Food = () => {
     <Card.Text>
     EBA is a staple food mainly eaten in the West Africa, particularly in Nigeria.It is made with fried cassava and hot boiling water to form a smooth stiff dough.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 <Card className='card1'style={{ width: '20rem', height: '30rem' }}>
@@ -72,7 +72,7 @@ const Food = () => {
     <Card.Text>
     With its aromatic spices and tangy sauces, chaat describes an entire category of Indian street foods that offers the palate of exotic flavors and textures.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 </div>

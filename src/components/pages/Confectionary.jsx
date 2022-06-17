@@ -18,7 +18,7 @@ const Confectionary = () => {
             <Card.Text>
             A classic Vannila Cake but with Japanese techniques applied for the most plush, soft and moist yellow cake like you've never had before.
             </Card.Text>
-            <Button variant="primary">Buy Now</Button>
+            <Button variant="primary">Order Now</Button>
             </Card.Body>
     </Card>
 
@@ -29,7 +29,7 @@ const Confectionary = () => {
         <Card.Text>
         Chocolate Cake with a super moist crumb and fudgy yet light texture. Top with chocolate buttercream and chocolate chips for 3x the chocolate flavor. 
         </Card.Text>
-        <Button variant="primary">Buy Now</Button>
+        <Button variant="primary">Order Now</Button>
         </Card.Body>
     </Card>
 
@@ -40,7 +40,7 @@ const Confectionary = () => {
     <Card.Text>
     A delicious, homemade chicken pot pie made from carrots, peas, and celery. This comfort food classic will be a hit with your family.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 
@@ -51,7 +51,7 @@ const Confectionary = () => {
     <Card.Text>
     Cheesecake is a sweet dessert consisting of one or more layers. The main, and thickest, layer consists of a mixture of a soft, fresh cheese, eggs, and sugar. 
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 
@@ -62,7 +62,7 @@ const Confectionary = () => {
     <Card.Text>
     Donuts come with dipped, drizzled, and glazed with every sweet and savoury topping that can possibly taste good on a ring of fried dough.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 <Card className='card1'style={{ width: '20rem', height: '30rem' }}>
@@ -72,7 +72,7 @@ const Confectionary = () => {
     <Card.Text>
     Moist, perfect cupcakes everyone will love.It comes with many flavours.A cupcake is a small cake designed to serve one person.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 </div>

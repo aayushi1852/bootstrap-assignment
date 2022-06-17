@@ -20,7 +20,7 @@ const Drinks = () => {
             Carrot juice is extracted from whole carrots and extremely nutritious.
             It not only provides potassium and vitamin C but also is very rich in provitamin A. 
             </Card.Text>
-            <Button variant="primary">Buy Now</Button>
+            <Button variant="primary">Order Now</Button>
             </Card.Body>
     </Card>
 
@@ -32,7 +32,7 @@ const Drinks = () => {
             Orange juice is a liquid extract of the orange tree fruit, produced by squeezing or reaming oranges.
             It is a favorite beverage high in antioxidants.
         </Card.Text>
-        <Button variant="primary">Buy Now</Button>
+        <Button variant="primary">Order Now</Button>
         </Card.Body>
     </Card>
 
@@ -43,7 +43,7 @@ const Drinks = () => {
     <Card.Text>
     Watermelon's high water content, antioxidants, and amino acids may make for a better workout.It is Refreshingly sweet and hydrating.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 
@@ -54,7 +54,7 @@ const Drinks = () => {
     <Card.Text>
     Mangoes are rich in vitamin C, iron, beta carotene and many other nutrients! Mango helps you fight infections and strengthens your bones.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 
@@ -65,7 +65,7 @@ const Drinks = () => {
     <Card.Text>
     Banana juice is a sweet and creamy combination of ripe banana, apple, honey and milk (or water).One of the benefit of banana juice is it increases immunity. 
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 <Card className='card1'style={{ width: '20rem', height: '30rem' }}>
@@ -75,7 +75,7 @@ const Drinks = () => {
     <Card.Text>
         Apple juice is a fruit juice made by the maceration and pressing of an apple.When apples are juiced, their hydrating quality is maximized.
     </Card.Text>
-    <Button variant="primary">Buy Now</Button>
+    <Button variant="primary">Order Now</Button>
     </Card.Body>
 </Card>
 </div>
