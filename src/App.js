@@ -20,10 +20,7 @@ function App() {
           <Route path="/Confectionary" element={ <Confectionary />} />
           <Route path="/Food" element={ <Food />} />
           <Route path="/Bootstrap-assignment" element={ <Home/>} />
-          
-
-          {/* <Route path="/bootstrap-assignment" element={( <div>here we try</div>)} /> */}
-
+         
           
     </Routes>
     <Footer />
