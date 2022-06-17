@@ -19,6 +19,11 @@ function App() {
           <Route path="/Drinks" element={ <Drinks />} />
           <Route path="/Confectionary" element={ <Confectionary />} />
           <Route path="/Food" element={ <Food />} />
+          {/* <Route path="/aayushi1852.github.io/bootstrap-assignment" element={ <Home/>} /> */}
+
+          <Route path="/aayushi1852.github.io/bootstrap-assignment" element={( <div>here we try</div>)} />
+
+          
     </Routes>
     <Footer />
       
