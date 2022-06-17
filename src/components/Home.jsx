@@ -14,10 +14,7 @@ const Home = () => {
         <li> <Link to="/confectionary">Confectionary</Link></li>
         <li> <Link to="/drinks">Drinks</Link></li>
 
-{/* 
-            <li>   <a href="/food" target="_blank">Food</a></li>
-            <li>   <a href="/confectionary" target="_blank">Confectionary</a></li>
-            <li>   <a href="/drinks" target="_blank">Drinks</a></li> */}
+       
     </div>
   </div>
   )
@@ -27,7 +24,3 @@ export default Home
 
 
 
-
-{/* <li> <Link to='/food'>Food</Link> </li>
-<li> <Link to='/Confectionary'>Confectionary</Link> </li>
-<li> <Link to='/Drinks'>Drinks</Link> </li> */}
