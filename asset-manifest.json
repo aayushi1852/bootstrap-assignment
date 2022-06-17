@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bootstrap-assignment/static/css/main.d5a8e4b8.css",
+    "main.css": "/bootstrap-assignment/static/css/main.4fea5ebb.css",
     "main.js": "/bootstrap-assignment/static/js/main.a8d3bd7e.js",
     "static/js/787.9b79b50a.chunk.js": "/bootstrap-assignment/static/js/787.9b79b50a.chunk.js",
     "static/media/vid.mp4": "/bootstrap-assignment/static/media/vid.772e6ed46f0760bcee0b.mp4",
@@ -12,12 +12,12 @@
     "static/media/yam.jpeg": "/bootstrap-assignment/static/media/yam.b6b2d775338ceb307b13.jpeg",
     "static/media/ch-cake.jpeg": "/bootstrap-assignment/static/media/ch-cake.ca63d516c2845539aa75.jpeg",
     "index.html": "/bootstrap-assignment/index.html",
-    "main.d5a8e4b8.css.map": "/bootstrap-assignment/static/css/main.d5a8e4b8.css.map",
+    "main.4fea5ebb.css.map": "/bootstrap-assignment/static/css/main.4fea5ebb.css.map",
     "main.a8d3bd7e.js.map": "/bootstrap-assignment/static/js/main.a8d3bd7e.js.map",
     "787.9b79b50a.chunk.js.map": "/bootstrap-assignment/static/js/787.9b79b50a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5a8e4b8.css",
+    "static/css/main.4fea5ebb.css",
     "static/js/main.a8d3bd7e.js"
   ]
 }
