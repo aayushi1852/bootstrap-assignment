@@ -17,10 +17,7 @@ const Nav = () => {
             <li> <Link to="/confectionary">Confectionary</Link></li>
             <li> <Link to="/drinks">Drinks</Link></li>
 
-          {/* <li>   <a href="/food">food</a></li>
-            <li>   <a href="/food">food</a></li>
-            <li>   <a href="/confectionary">Confectionary</a></li>
-            <li>   <a href="/drinks">Drinks</a></li> */}
+     
 
             
           </ul>
