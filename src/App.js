@@ -15,7 +15,7 @@ function App() {
       <header className="App-header"></header>
         <Nav />
       <Routes>
-          <Route path="/" element={ <Home />} />
+          {/* <Route path="/" element={ <Home />} /> */}
           <Route path="/Drinks" element={ <Drinks />} />
           <Route path="/Confectionary" element={ <Confectionary />} />
           <Route path="/Food" element={ <Food />} />
