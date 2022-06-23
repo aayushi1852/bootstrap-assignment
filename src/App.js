@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route,Link } from "react-router-dom";
 import Drinks from './components/pages/Drinks';
 import Confectionary from './components/pages/Confectionary';
 import Food from './components/pages/Food';
+import Orders from './components/Orders';
 
 // 1. Aayushi shah-N01523081 and
 
@@ -22,7 +23,9 @@ function App() {
           <Route path="/drinks" element={ <Drinks />} />
           <Route path="/confectionary" element={ <Confectionary />} />
           <Route path="/food" element={ <Food />} />
+          <Route path="/orders" element={ <Orders />} />
           <Route path="/bootstrap-assignment" element={ <Home/>} />
+
          
           
     </Routes>

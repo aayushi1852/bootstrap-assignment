@@ -9,13 +9,18 @@ import wmelon from "../../img/w-melon.jpeg"
 import papple from "../../img/p-apple.jpeg"
 import carrott from "../../img/carrott.jpeg"
 
-const Drinks = () => {
+const Drinks = (props) => {
+
+    
+    console.log('wwww',props.title)
+
   return (
+
     <div className='cards'>
         <Card className='card1'style={{ width: '20rem', height: '30rem' }}>
         <Card.Img variant="top" src={carrott} />
             <Card.Body>
-            <Card.Title>Carrot Juice</Card.Title>
+            <Card.Title>{props.title}</Card.Title>
             <Card.Text className='text'>
             Carrot juice is extracted from whole carrots and extremely nutritious.
             It not only provides potassium and vitamin C but also is very rich in provitamin A. 
