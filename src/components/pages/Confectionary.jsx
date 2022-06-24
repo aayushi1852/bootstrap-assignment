@@ -7,6 +7,7 @@ import pie from "../../img/pie.jpeg"
 import vcake from "../../img/van-cake.jpeg"
 import dnuts from "../../img/d-nuts.jpeg"
 import cucake from "../../img/cup-cake.jpeg"
+import styles from "../../components/WaitList.module.css"
 
 const Confectionary = () => {
   return (
@@ -29,7 +30,8 @@ const Confectionary = () => {
         <Card.Text className='text'>
         Chocolate Cake with a super moist crumb and fudgy yet light texture. Top with chocolate buttercream and chocolate chips for 3x the chocolate flavor. 
         </Card.Text>
-        <Button variant="primary">Order Now</Button>
+        {/* <Button variant="primary">Order Now</Button> */}
+        <button className ={styles.button}> Pre Order </button>
         </Card.Body>
     </Card>
 
@@ -40,7 +42,8 @@ const Confectionary = () => {
     <Card.Text className='text'>
     A delicious, homemade chicken pot pie made from carrots, peas, and celery. This comfort food classic will be a hit with your family.
     </Card.Text>
-    <Button variant="primary">Order Now</Button>
+    {/* <Button variant="primary">Order Now</Button> */}
+    <button className ={styles.button}> Pre Order </button>
     </Card.Body>
 </Card>
 
@@ -62,7 +65,8 @@ const Confectionary = () => {
     <Card.Text className='text'>
     Donuts come with dipped, drizzled, and glazed with every sweet and savoury topping that can possibly taste good on a ring of fried dough.
     </Card.Text>
-    <Button variant="primary">Order Now</Button>
+    {/* <Button variant="primary">Order Now</Button> */}
+    <button className ={styles.button}> Pre Order </button>
     </Card.Body>
 </Card>
 <Card className='card1'style={{ width: '20rem', height: '30rem' }}>
@@ -72,7 +76,8 @@ const Confectionary = () => {
     <Card.Text className='text'>
     Moist, perfect cupcakes everyone will love.It comes with many flavours.A cupcake is a small cake designed to serve one person.
     </Card.Text>
-    <Button variant="primary">Order Now</Button>
+    {/* <Button variant="primary">Order Now</Button> */}
+    <button className ={styles.button}> Pre Order </button>
     </Card.Body>
 </Card>
 </div>

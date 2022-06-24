@@ -6,21 +6,23 @@ import Orders from './Orders'
 
 const Card = () => {
   const tt = 'sjsksks'
+
   return (
-    <>
+    <div>
     <Drinks title='kekekeekk'/>
     <Drinks />
     <Drinks />
     <Drinks  />
 
-     <Orders name={tt}/>
-     <Orders ans='yes'/>
-    <Orders  /> 
+    <Orders name={tt}/>
+    <Orders ans='yes'/>
+    <Orders />
+    
 
-      <Orders name="Sara" />
-      <Orders name="Cahal" />
-      <Orders name="Edite" />
-    </>
+    <Orders name="Sara" />
+    <Orders name="Cahal" />
+    <Orders name="Edite" />
+    </div>
   )
 }
 

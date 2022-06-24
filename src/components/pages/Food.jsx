@@ -7,6 +7,7 @@ import yam from "../../img/yam.jpeg"
 import eba from "../../img/eba.jpeg"
 import chaat from "../../img/chaat.jpeg"
 import barfi from "../../img/barfi.jpeg"
+import styles from "../../components/WaitList.module.css"
 
 const Food = () => {
   return (
@@ -29,7 +30,8 @@ const Food = () => {
         <Card.Text className='text'>
         Jollof rice is a unifying dish across West Africa.The dish is typically made with long-grain rice, tomatoes, onions, spices, vegetables and meat in a single pot,
         </Card.Text>
-        <Button variant="primary">Order Now</Button>
+        {/* <Button variant="primary">Order Now</Button> */}
+        <button className ={styles.button}> Pre Order </button>
         </Card.Body>
     </Card>
 
@@ -40,7 +42,8 @@ const Food = () => {
     <Card.Text className='text'>
     Yam and eggs recipe made with succulent boiled yam and fried eggs garnished with vegetables. Yam is highly nutritious and contains less starch than potatoes.
     </Card.Text>
-    <Button variant="primary">Order Now</Button>
+    {/* <Button variant="primary">Order Now</Button> */}
+    <button className ={styles.button}> Pre Order </button>
     </Card.Body>
 </Card>
 
@@ -62,7 +65,8 @@ const Food = () => {
     <Card.Text className='text'>
     EBA is a staple food mainly eaten in the West Africa, particularly in Nigeria.It is made with fried cassava and hot boiling water to form a smooth stiff dough.
     </Card.Text>
-    <Button variant="primary">Order Now</Button>
+    {/* <Button variant="primary">Order Now</Button> */}
+    <button className ={styles.button}> Pre Order </button>
     </Card.Body>
 </Card>
 <Card className='card1'style={{ width: '20rem', height: '30rem' }}>

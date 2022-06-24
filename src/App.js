@@ -24,10 +24,7 @@ function App() {
           <Route path="/confectionary" element={ <Confectionary />} />
           <Route path="/food" element={ <Food />} />
           <Route path="/orders" element={ <Orders />} />
-          <Route path="/bootstrap-assignment" element={ <Home/>} />
-
-         
-          
+          <Route path="/bootstrap-assignment" element={ <Home/>} />    
     </Routes>
     <Footer />
       

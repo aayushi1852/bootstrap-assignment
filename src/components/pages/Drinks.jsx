@@ -8,6 +8,8 @@ import mango from "../../img/mango.jpeg"
 import wmelon from "../../img/w-melon.jpeg"
 import papple from "../../img/p-apple.jpeg"
 import carrott from "../../img/carrott.jpeg"
+import styles from "../../components/WaitList.module.css"
+
 
 const Drinks = (props) => {
 
@@ -17,7 +19,9 @@ const Drinks = (props) => {
   return (
 
     <div className='cards'>
-        <Card className='card1'style={{ width: '20rem', height: '30rem' }}>
+        <Card className='card1'style={{ 
+            width: '20rem', height: '30rem' 
+            }}>
         <Card.Img variant="top" src={carrott} />
             <Card.Body>
             <Card.Title>{props.title}</Card.Title>
@@ -25,7 +29,8 @@ const Drinks = (props) => {
             Carrot juice is extracted from whole carrots and extremely nutritious.
             It not only provides potassium and vitamin C but also is very rich in provitamin A. 
             </Card.Text>
-            <Button variant="primary">Order Now</Button>
+            {/* <Button variant="primary">Order Now</Button> */}
+           <button className ={styles.button}> Pre Order </button>
             </Card.Body>
     </Card>
 
@@ -59,7 +64,8 @@ const Drinks = (props) => {
     <Card.Text className='text'>
     Mangoes are rich in vitamin C, iron, beta carotene and many other nutrients! Mango helps you fight infections and strengthens your bones.
     </Card.Text>
-    <Button variant="primary">Order Now</Button>
+    {/* <Button variant="primary">Order Now</Button> */}
+    <button className ={styles.button}> Pre Order </button>
     </Card.Body>
 </Card>
 
@@ -70,7 +76,8 @@ const Drinks = (props) => {
     <Card.Text className='text'>
     Banana juice is a sweet and creamy combination of ripe banana, apple, honey and milk (or water).One of the benefit of banana juice is it increases immunity. 
     </Card.Text>
-    <Button variant="primary">Order Now</Button>
+    {/* <Button variant="primary">Order Now</Button> */}
+    <button className ={styles.button}> Pre Order </button>
     </Card.Body>
 </Card>
 <Card className='card1'style={{ width: '20rem', height: '30rem' }}>
