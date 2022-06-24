@@ -2,10 +2,18 @@
   margin: 0;
   padding: 0;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
 
 }
+
+:root {
+  --nav: wheat;
+  --color:#282c34;
+
+}
+
 a{
-  color: black;
+  color: var(--color);
 }
 
 .Home{
@@ -37,7 +45,7 @@ video {
 .main li {
   list-style-type: none;
   padding: 40px;
-  color: antiquewhite;
+  color: var(--nav);
   text-decoration: none;
 }
 
@@ -61,12 +69,13 @@ video {
   text-align: center;
   height: 60px;
   color: aliceblue;
-  background-color: #282c34;
+  background-color: var(--color);
+
  
 }
 .nav{
-  background-color: wheat;
-  color: antiquewhite;
+  background-color: var(--nav);
+  
 
 
 }
