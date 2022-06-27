@@ -1,29 +1,29 @@
-import React from 'react'
-import Drinks from './pages/Drinks'
-import Orders from './Orders'
-
+// import React from 'react'
 // import Drinks from './pages/Drinks'
+// import Orders from './Orders'
 
-const Card = () => {
-  const tt = 'sjsksks'
+// // import Drinks from './pages/Drinks'
 
-  return (
-    <div>
-    <Drinks title='kekekeekk'/>
-    <Drinks />
-    <Drinks />
-    <Drinks  />
+// const Card = () => {
+//   const tt = 'sjsksks'
 
-    <Orders name={tt}/>
-    <Orders ans='yes'/>
-    <Orders />
+//   return (
+//     <div>
+//     <Drinks title='kekekeekk'/>
+//     <Drinks />
+//     <Drinks />
+//     <Drinks  />
+
+//     <Orders name={tt}/>
+//     <Orders ans='yes'/>
+//     <Orders />
     
 
-    <Orders name="Sara" />
-    <Orders name="Cahal" />
-    <Orders name="Edite" />
-    </div>
-  )
-}
+//     <Orders name="Sara" />
+//     <Orders name="Cahal" />
+//     <Orders name="Edite" />
+//     </div>
+//   )
+// }
 
-export default Card
+// export default Card

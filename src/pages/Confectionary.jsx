@@ -1,13 +1,15 @@
 import React from 'react'
 import { Button,Card } from 'react-bootstrap';
 
-import bcake from "../../img/b-cake.jpeg"
-import chcake from "../../img/ch-cake.jpeg"
-import pie from "../../img/pie.jpeg"
-import vcake from "../../img/van-cake.jpeg"
-import dnuts from "../../img/d-nuts.jpeg"
-import cucake from "../../img/cup-cake.jpeg"
-import styles from "../../components/WaitList.module.css"
+// import bcake from "../../img/b-cake.jpeg"
+import bcake from "../img/b-cake.jpeg"
+import chcake from "../img/ch-cake.jpeg"
+import pie from "../img/pie.jpeg"
+import vcake from "../img/van-cake.jpeg"
+import dnuts from "../img/d-nuts.jpeg"
+import cucake from "../img/cup-cake.jpeg"
+import styles from "./WaitList.module.css"
+// import styles from "../components/WaitList.module.css"
 
 const Confectionary = () => {
   return (
@@ -76,7 +78,6 @@ const Confectionary = () => {
     <Card.Text className='text'>
     Moist, perfect cupcakes everyone will love.It comes with many flavours.A cupcake is a small cake designed to serve one person.
     </Card.Text>
-    {/* <Button variant="primary">Order Now</Button> */}
     <button className ={styles.button}> Pre Order </button>
     </Card.Body>
 </Card>

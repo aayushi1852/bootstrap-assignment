@@ -1,13 +1,15 @@
 import React from 'react'
 import { Button,Card } from 'react-bootstrap';
 
-import rice from "../../img/rice1.jpeg"
-import plantain from "../../img/plantain.jpeg"
-import yam from "../../img/yam.jpeg"
-import eba from "../../img/eba.jpeg"
-import chaat from "../../img/chaat.jpeg"
-import barfi from "../../img/barfi.jpeg"
-import styles from "../../components/WaitList.module.css"
+
+import rice from "../img/rice1.jpeg"
+import plantain from "../img/plantain.jpeg"
+import yam from "../img/yam.jpeg"
+import eba from "../img/eba.jpeg"
+import chaat from "../img/chaat.jpeg"
+import barfi from "../img/barfi.jpeg"
+import styles from "./WaitList.module.css"
+
 
 const Food = () => {
   return (
