@@ -16,7 +16,7 @@ const Nav = () => {
             <li> <Link to="/food">Food</Link></li>
             <li> <Link to="/confectionary">Confectionary</Link></li>
             <li> <Link to="/drinks">Drinks</Link></li>
-            <li> <Link to="/orders">Test</Link></li>
+            <li> <Link to="/card">Test</Link></li>
             
           </ul>
       </Navbar.Text>

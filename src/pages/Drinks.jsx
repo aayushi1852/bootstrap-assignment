@@ -28,8 +28,8 @@ const Drinks = (props) => {
             <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <Card.Text className='text'>
-            Carrot juice is extracted from whole carrots and extremely nutritious.
-            It not only provides potassium and vitamin C but also is very rich in provitamin A. 
+            Carrot juice is extracted from whole carrots and extremely nutritious. It not only provides potassium and vitamin C but also is very rich in provitamin A
+            {/* {props.description}  */}
             </Card.Text>
            
            <button className ={styles.button}> Pre Order </button>

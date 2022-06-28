@@ -7,6 +7,11 @@ import { BrowserRouter as Router, Routes, Route,Link } from "react-router-dom";
 import Drinks from './pages/Drinks';
 import Confectionary from './pages/Confectionary';
 import Food from './pages/Food';
+// import { Card } from 'react-bootstrap';
+import Card from './pages/CardDrinks';
+import CardDrinks from './pages/CardDrinks';
+import CardFood from './pages/CardFood';
+import CardConfectionary from './pages/CardConfectionary';
 
 // import tt  from './pages/functions';
 
@@ -20,17 +25,27 @@ import Food from './pages/Food';
 
 function App() {
 
-  const tt = 'gsgsgs'
+  // const tt = 'gsgsgs'
+  // const description = 'Carrot juice is extracted from whole carrots and extremely nutritious. It not only provides potassium and vitamin C but also is very rich in provitamin A'
+
+
   return (
     <Router>
     <div className="App">
       <header className="App-header"></header>
         <Nav />
       <Routes>
-          <Route path="/drinks" element={ <Drinks title={tt}/>} />
-          <Route path="/confectionary" element={ <Confectionary />} />
+          {/* <Route path="/drinks" element={ <Drinks title={tt} description = {description}/>} /> */}
+
+          <Route path="/confectionary" element={ <CardConfectionary />} />
+          <Route path="/food" element={ <CardFood />} />
+          <Route path="/drinks" element={ <CardDrinks />} />
+          <Route path="/card" element={ <Card />} />
+
+
+          {/* <Route path="/confectionary" element={ <Confectionary />} />
           <Route path="/food" element={ <Food />} />
-          {/* <Route path="/card" element={ <Card />} /> */}
+          <Route path="/card" element={ <Card />} /> */}
           {/* <Route path="/orders" element={ <Orders name='juud'/>} /> */}
           <Route path="/bootstrap-assignment" element={ <Home/>} />    
     </Routes>
