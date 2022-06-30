@@ -38,14 +38,11 @@ function App() {
           {/* <Route path="/drinks" element={ <Drinks title={tt} description = {description}/>} /> */}
 
           <Route path="/confectionary" element={ <CardConfectionary />} />
+          {/* <Route path="/confectionary" element={ <CardFood />} /> */}
           <Route path="/food" element={ <CardFood />} />
           <Route path="/drinks" element={ <CardDrinks />} />
-          <Route path="/card" element={ <Card />} />
-
-
+          {/* <Route path="/card" element={ <Card />} /> */}
           {/* <Route path="/confectionary" element={ <Confectionary />} />
-          <Route path="/food" element={ <Food />} />
-          <Route path="/card" element={ <Card />} /> */}
           {/* <Route path="/orders" element={ <Orders name='juud'/>} /> */}
           <Route path="/bootstrap-assignment" element={ <Home/>} />    
     </Routes>

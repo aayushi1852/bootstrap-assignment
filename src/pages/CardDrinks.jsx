@@ -4,8 +4,8 @@ import Drinks from './Drinks'
 const CardDrinks = () => {
   return (
     <div>
-        <h3>hshshshs</h3>
-    <Drinks title='kekekeekk'/>
+        
+    <Drinks title='Carrott'/>
     {/* <Drinks /> */}
     {/* <Drinks />
     <Drinks  /> */}

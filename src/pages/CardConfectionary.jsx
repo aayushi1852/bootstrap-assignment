@@ -42,23 +42,61 @@ const CardConfectionary = () => {
   
   //CardConfectionary
 
-  const renderCardConfectionary = (ConfectionaryCard, index) => {
-    return (
+  // const renderCardConfectionary = (ConfectionaryCard, index) => {
+  //   return (
   
-      <Confectionary key={index}
-      tittle = {ConfectionaryCard.tittle}
-      description={ConfectionaryCard.description}
-      />
-    );
-  };
+  //     <Confectionary key={index}
+  //     tittle = {ConfectionaryCard.tittle}
+  //     description={ConfectionaryCard.description}
+  //     />
+  //   );
+  // };
+
+  
+  console.log('here',confectionaryInfo)
+
 
   
 
   
     return (
       <div>
-          <h3>map outputs 6 times.</h3>   
-          {confectionaryInfo.map(renderCardConfectionary)}
+          <h3>'BUG' .map() outputs 6 times.  React Project</h3>  
+
+            
+            <Confectionary 
+
+            tittle0 = {confectionaryInfo[0].tittle}
+            tittle1 = {confectionaryInfo[1].tittle}
+            tittle2 = {confectionaryInfo[2].tittle}
+            tittle3 = {confectionaryInfo[3].tittle}
+            tittle4 = {confectionaryInfo[4].tittle}
+            tittle5 = {confectionaryInfo[5].tittle}
+
+            description0 = {confectionaryInfo[0].description}
+            description1 = {confectionaryInfo[1].description}
+            description2 = {confectionaryInfo[2].description}
+            description3 = {confectionaryInfo[3].description}
+            description4 = {confectionaryInfo[4].description}
+            description5 = {confectionaryInfo[5].description}
+
+
+            // tittle = {confectionaryInfo.tittle}
+
+            />
+        
+
+
+          {/* {confectionaryInfo.map((info)=> (
+            <CardConfectionary 
+            info = {confectionaryInfo}
+              // tittle = {info.tittle}
+              // description = {info.description}
+            />
+          ))} */}
+          
+          {/* {confectionaryInfo.map(renderCardConfectionary)} */}
+          {/* {confectionaryInfo.map(renderCardConfectionary)} */}
    
       </div>
     )
