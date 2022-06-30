@@ -69,7 +69,7 @@ const CardFood = () => {
     return (
       <div>
         
-        <h3>map outputs 6x times.</h3>   
+        <h3>Working on Dynamic props.</h3>   
           {FoodInfo.map(renderCardFood)}
       </div>
     )

@@ -61,7 +61,7 @@ const CardConfectionary = () => {
   
     return (
       <div>
-          <h3>'BUG' .map() outputs 6 times.  React Project</h3>  
+          <h3>'Working on Dynamic props</h3>  
 
             
             <Confectionary 
