@@ -52,7 +52,7 @@ const CardConfectionary = () => {
       <Confectionary key={index}
       tittle = {FoodCard.tittle}
       description={FoodCard.description}
-      img={FoodCard.img}
+      img={FoodCard.img} 
       />
     );
   };

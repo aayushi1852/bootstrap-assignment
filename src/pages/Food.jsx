@@ -8,7 +8,7 @@ import styles from "./WaitList.module.css"
 
 
 const Food = ({img,tittle,description}) => {
-//   console.log('jdjdj',props.tittle1)
+
 return (
     <div>
     <Card className='card1'style={{ width: '20rem', height: '30rem' }}>
