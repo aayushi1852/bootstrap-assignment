@@ -1,9 +1,8 @@
 .button {
-    width: 100px;
-    height: 50px;
+    width: 93.06px;
+    height: 38px;
     background-color: blueviolet;
-    /* margin-left:80px ; */
-    border-radius: 5px;
+    border-radius: 0.25rem;
     color: aliceblue;
     border: none;
     

@@ -11,9 +11,6 @@ import cucake from "../img/cup-cake.jpeg"
 import styles from "./WaitList.module.css"
 
 
-
-// import styles from "../components/WaitList.module.css"
-
 const Confectionary = (props) => {
 
  

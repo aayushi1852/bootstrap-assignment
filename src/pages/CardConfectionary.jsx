@@ -1,8 +1,5 @@
-
 import React from 'react'
 import Confectionary from './Confectionary'
-
-
 
 const CardConfectionary = () => {
 
@@ -40,30 +37,11 @@ const CardConfectionary = () => {
   
   ];
   
-  //CardConfectionary
-
-  // const renderCardConfectionary = (ConfectionaryCard, index) => {
-  //   return (
-  
-  //     <Confectionary key={index}
-  //     tittle = {ConfectionaryCard.tittle}
-  //     description={ConfectionaryCard.description}
-  //     />
-  //   );
-  // };
-
   
   console.log('here',confectionaryInfo)
-
-
-  
-
   
     return (
       <div>
-          <h3>'Working on Dynamic props</h3>  
-
-            
             <Confectionary 
 
             tittle0 = {confectionaryInfo[0].tittle}
@@ -81,23 +59,8 @@ const CardConfectionary = () => {
             description5 = {confectionaryInfo[5].description}
 
 
-            // tittle = {confectionaryInfo.tittle}
-
             />
         
-
-
-          {/* {confectionaryInfo.map((info)=> (
-            <CardConfectionary 
-            info = {confectionaryInfo}
-              // tittle = {info.tittle}
-              // description = {info.description}
-            />
-          ))} */}
-          
-          {/* {confectionaryInfo.map(renderCardConfectionary)} */}
-          {/* {confectionaryInfo.map(renderCardConfectionary)} */}
-   
       </div>
     )
   }
