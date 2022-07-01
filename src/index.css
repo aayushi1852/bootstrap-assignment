@@ -27,9 +27,9 @@ video {
   object-fit: cover;
 }
 .text{
-  font-weight: lighter;
-  color: palevioletred;
+  color: red;
   font-size: 16px;
+  font-family:Times, serif;
 }
 
 .links li {

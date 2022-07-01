@@ -40,24 +40,8 @@ const CardConfectionary = () => {
   
   ];
   
-  //CardConfectionary
-
-  // const renderCardConfectionary = (ConfectionaryCard, index) => {
-  //   return (
-  
-  //     <Confectionary key={index}
-  //     tittle = {ConfectionaryCard.tittle}
-  //     description={ConfectionaryCard.description}
-  //     />
-  //   );
-  // };
-
   
   console.log('here',confectionaryInfo)
-
-
-  
-
   
     return (
       <div>
@@ -81,23 +65,8 @@ const CardConfectionary = () => {
             description5 = {confectionaryInfo[5].description}
 
 
-            // tittle = {confectionaryInfo.tittle}
-
             />
         
-
-
-          {/* {confectionaryInfo.map((info)=> (
-            <CardConfectionary 
-            info = {confectionaryInfo}
-              // tittle = {info.tittle}
-              // description = {info.description}
-            />
-          ))} */}
-          
-          {/* {confectionaryInfo.map(renderCardConfectionary)} */}
-          {/* {confectionaryInfo.map(renderCardConfectionary)} */}
-   
       </div>
     )
   }
