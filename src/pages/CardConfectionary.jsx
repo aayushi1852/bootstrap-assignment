@@ -1,8 +1,5 @@
-
 import React from 'react'
 import Confectionary from './Confectionary'
-
-
 
 const CardConfectionary = () => {
 
@@ -45,9 +42,6 @@ const CardConfectionary = () => {
   
     return (
       <div>
-          <h3>'Working on Dynamic props</h3>  
-
-            
             <Confectionary 
 
             tittle0 = {confectionaryInfo[0].tittle}
