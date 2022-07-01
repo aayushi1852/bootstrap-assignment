@@ -57,10 +57,10 @@ const CardDrinks = () => {
   }
   
     return (
-      <div>
-          
-          <div>
-            <h3>Juice.</h3>  
+      
+      <div className='gridheader'>
+         <h3>Drinks</h3>
+          <div className='grid'>
               {drinksInfo.map(DrinksCardFood)}  
           </div> 
 

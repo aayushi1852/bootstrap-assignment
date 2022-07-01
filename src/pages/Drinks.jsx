@@ -1,14 +1,12 @@
 import React from 'react'
 
-import { Button,Card } from 'react-bootstrap';
-
-
+import { Card } from 'react-bootstrap';
 
 import styles from "./WaitList.module.css"
 
 
 const Food = ({img,tittle,description}) => {
-    // console.log('jdjdj',props.tittle1)
+    
 return (
   
   
@@ -21,7 +19,6 @@ return (
                 {description} 
               </Card.Text>
               <button className ={styles.button}> Pre Order </button>
-              {/* <Button variant="primary">Order Now</Button> */}
         </Card.Body>
     </Card>
   </div>

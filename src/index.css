@@ -41,6 +41,23 @@ video {
   font-size: 20px;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ 
+}
+
+.gridheader h3 {
+  padding-left:50% ;
+  padding-top: 20px;
+}
+
+.gridheaderc h3 {
+  padding-left:45% ;
+  padding-top: 20px;
+}
+
+
 .main li {
   list-style-type: none;
   padding: 40px;
@@ -141,6 +158,13 @@ video {
     padding: 25px;
     
   }
+
+  
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ 
+}
   
 }
 
@@ -161,6 +185,12 @@ video {
   .main li {
     padding: 20px;
     
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   
   }
   
 }

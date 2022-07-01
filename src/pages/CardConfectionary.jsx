@@ -59,10 +59,10 @@ const CardConfectionary = () => {
 
   
     return (
-      <div>
-     <div>
-               <h3>Confectionary.</h3>   
-              {confectionaryInfo.map(ConfectionaryCardFood)}  
+      <div className='gridheaderc'>
+            <h3>Confectionary.</h3>   
+     <div className='grid'>
+             {confectionaryInfo.map(ConfectionaryCardFood)}  
       </div>
 
         

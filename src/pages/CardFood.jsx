@@ -61,9 +61,12 @@ const CardFood = () => {
   };
 
     return (
-      <div>
+      <div className='gridheader'>
             <h3>Food.</h3>   
-              {FoodInfo.map(renderCardFood)}  
+            <div className='grid'>
+                {FoodInfo.map(renderCardFood)}  
+            </div>
+             
       </div>
 
 
