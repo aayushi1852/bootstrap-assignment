@@ -8,6 +8,7 @@ import yam from "../img/yam.jpeg"
 import eba from "../img/eba.jpeg"
 import chaat from "../img/chaat.jpeg"
 import barfi from "../img/barfi.jpeg"
+const jj = 'https://i.insider.com/50f967f56bb3f7830a000019'
 
 
 const CardFood = () => {
@@ -17,8 +18,10 @@ const CardFood = () => {
         
         tittle: "Plantain",
         description: "Plantain are deep-fried or dried, generally crispy slices of bananas.They can be sweet or savory and covered with sugar, honey, salt, or various spices.",
-        img : {plantain},
-        // photo: "../img/plantain.jpeg"
+        // img : {plantain},
+        // img: {jj},
+        // img:'https://i.insider.com/50f967f56bb3f7830a000019'
+        img: "../img/plantain.jpeg"
     },
     {
       

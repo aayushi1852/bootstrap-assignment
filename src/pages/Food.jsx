@@ -2,22 +2,24 @@ import React from 'react'
 import { Button,Card } from 'react-bootstrap';
 
 
-import rice from "../img/rice1.jpeg"
-import plantain from "../img/plantain.jpeg"
-import yam from "../img/yam.jpeg"
-import eba from "../img/eba.jpeg"
-import chaat from "../img/chaat.jpeg"
+// import rice from "../img/rice1.jpeg"
+// import plantain from "../img/plantain.jpeg"
+// import yam from "../img/yam.jpeg"
+// import eba from "../img/eba.jpeg"
+// import chaat from "../img/chaat.jpeg"
 import barfi from "../img/barfi.jpeg"
 
 import styles from "./WaitList.module.css"
 
 
-const Food = ({description,img,tittle}) => {
+const Food = ({img,tittle,description}) => {
   return (
     <div className='cards'>
         
 <Card className='card1'style={{ width: '20rem', height: '30rem' }}>
-     <Card.Img variant="top" src={img} />
+     {/* <Card.Img variant="top" src={img} /> */}
+
+     <Card.Img variant="top" src= {"../img/barfi.jpeg"}/>
      {/* <Card.Img variant="top" src={props.img} /> */}
     <Card.Body>
     <Card.Title>{tittle}</Card.Title>
