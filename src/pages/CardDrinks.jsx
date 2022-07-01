@@ -2,7 +2,7 @@ import React from 'react'
 import Drinks from './Drinks'
 const CardDrinks = () => {
 
-  const DrinksInfo = [
+  const drinksInfo = [
     {
         
         tittle: "Carrot Juice",
@@ -37,30 +37,26 @@ const CardDrinks = () => {
   ];
   
   
-  console.log('here',DrinksInfo)
+  const DrinksCardFood = (DrinksCard, index) => {
+    return (
+
+      <Drinks key={index}
+      tittle = {DrinksCard.tittle}
+      description={DrinksCard.description}
+      img={DrinksCard.img}
+      />
+    );
+  }
   
     return (
       <div>
           
-
+          <div>
+            <h3>Working on Dynamic props.</h3>   
+              {drinksInfo.map(DrinksCardFood)}  
+          </div>
             
-            <Drinks 
-
-            tittle0 = {DrinksInfo[0].tittle}
-            tittle1 = {DrinksInfo[1].tittle}
-            tittle2 = {DrinksInfo[2].tittle}
-            tittle3 = {DrinksInfo[3].tittle}
-            tittle4 = {DrinksInfo[4].tittle}
-            tittle5 = {DrinksInfo[5].tittle}
-
-            description0 = {DrinksInfo[0].description}
-            description1 = {DrinksInfo[1].description}
-            description2 = {DrinksInfo[2].description}
-            description3 = {DrinksInfo[3].description}
-            description4 = {DrinksInfo[4].description}
-            description5 = {DrinksInfo[5].description}
-
-            />
+         
 
       </div>
     )

@@ -43,31 +43,25 @@ const CardFood = () => {
   },
   
   ];
-  console.log('here',FoodInfo)
+  const renderCardFood = (FoodCard, index) => {
+    return (
+
+      <Food key={index}
+      tittle = {FoodCard.tittle}
+      description={FoodCard.description}
+      img={FoodCard.img}
+      />
+    );
+  };
 
     return (
       <div>
-  
-
-      <Food 
-
-              tittle0 = {FoodInfo[0].tittle}
-              tittle1 = {FoodInfo[1].tittle}
-              tittle2 = {FoodInfo[2].tittle}
-              tittle3 = {FoodInfo[3].tittle}
-              tittle4 = {FoodInfo[4].tittle}
-              tittle5 = {FoodInfo[5].tittle}
-
-              description0 = {FoodInfo[0].description}
-              description1 = {FoodInfo[1].description}
-              description2 = {FoodInfo[2].description}
-              description3 = {FoodInfo[3].description}
-              description4 = {FoodInfo[4].description}
-              description5 = {FoodInfo[5].description}
-
-              />
-   
+            <h3>Working on Dynamic props.</h3>   
+              {FoodInfo.map(renderCardFood)}  
       </div>
+
+
+
     )
   }
   
