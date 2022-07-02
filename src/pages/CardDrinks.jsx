@@ -59,7 +59,7 @@ const CardDrinks = () => {
     return (
       
       <div className='gridheader'>
-         <h3>Drinks</h3>
+         <h3>Drinks.</h3>
           <div className='grid'>
               {drinksInfo.map(DrinksCardFood)}  
           </div> 
