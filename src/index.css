@@ -168,7 +168,7 @@ video {
   
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 667px) {
 
   .cards {
     grid-template-columns: repeat(1, 1fr);
@@ -193,14 +193,5 @@ video {
     grid-template-columns: repeat(1,1fr);
    
   }
-  .footer{
-    width: 100%;
-  }
-  .nav{
-    width: 100%;
-  }
-  .navhome{
-    width: 100%;
-  }
-  
+
 }
