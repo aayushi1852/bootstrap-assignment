@@ -171,6 +171,7 @@ video {
 
   .cards {
     grid-template-columns: repeat(1, 1fr);
+ 
   }
   .main{
     display: flex;
