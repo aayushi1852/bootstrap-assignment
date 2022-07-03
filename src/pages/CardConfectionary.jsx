@@ -60,7 +60,7 @@ const CardConfectionary = () => {
   
     return (
       <div className='gridheaderc'>
-            <h3>Confectionary.</h3>   
+            <h3>Confectionary</h3>   
      <div className='grid'>
              {confectionaryInfo.map(ConfectionaryCardFood)}  
       </div>

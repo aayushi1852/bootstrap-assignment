@@ -12,6 +12,10 @@
 
 ### Project Requirements
 
+### npm i
+
+### npm start
+
 ```
 Create a responsive website: 2 to 3 pages
 Must use a CSS framework such as Bootstrap or Tailwind CSS (choose 1 of them)
