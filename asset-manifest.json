@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bootstrap-assignment/static/css/main.22b1327c.css",
-    "main.js": "/bootstrap-assignment/static/js/main.9ca1b9ef.js",
+    "main.css": "/bootstrap-assignment/static/css/main.004f12b4.css",
+    "main.js": "/bootstrap-assignment/static/js/main.0dbfc755.js",
     "static/js/787.9b79b50a.chunk.js": "/bootstrap-assignment/static/js/787.9b79b50a.chunk.js",
     "static/media/vid.mp4": "/bootstrap-assignment/static/media/vid.772e6ed46f0760bcee0b.mp4",
-    "static/media/back.jpeg": "/bootstrap-assignment/static/media/back.6b424c3cd4d0881e1105.jpeg",
+    "static/media/back.jpg": "/bootstrap-assignment/static/media/back.fc50740b3d469fdae429.jpg",
     "static/media/rice1.jpeg": "/bootstrap-assignment/static/media/rice1.7123f8d7e6c928b16d9e.jpeg",
     "static/media/chaat.jpeg": "/bootstrap-assignment/static/media/chaat.5c412b7bb32326ba1056.jpeg",
     "static/media/d-nuts.jpeg": "/bootstrap-assignment/static/media/d-nuts.ed6adb97517e79f0435d.jpeg",
     "static/media/yam.jpeg": "/bootstrap-assignment/static/media/yam.b6b2d775338ceb307b13.jpeg",
     "static/media/ch-cake.jpeg": "/bootstrap-assignment/static/media/ch-cake.ca63d516c2845539aa75.jpeg",
     "index.html": "/bootstrap-assignment/index.html",
-    "main.22b1327c.css.map": "/bootstrap-assignment/static/css/main.22b1327c.css.map",
-    "main.9ca1b9ef.js.map": "/bootstrap-assignment/static/js/main.9ca1b9ef.js.map",
+    "main.004f12b4.css.map": "/bootstrap-assignment/static/css/main.004f12b4.css.map",
+    "main.0dbfc755.js.map": "/bootstrap-assignment/static/js/main.0dbfc755.js.map",
     "787.9b79b50a.chunk.js.map": "/bootstrap-assignment/static/js/787.9b79b50a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22b1327c.css",
-    "static/js/main.9ca1b9ef.js"
+    "static/css/main.004f12b4.css",
+    "static/js/main.0dbfc755.js"
   ]
 }
