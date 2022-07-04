@@ -17,8 +17,8 @@ return (
             {description} 
           </Card.Text>
           <Card.Text className='text'>
-          {qty} Products 
-            {qty === 0 ? ' Out of Stock' : ' Availeble'}
+          {/* {qty} Products  */}
+            {qty === 0 ? ' Out of Stock' : ' Available'}
           </Card.Text>
           <Card.Text className='text'> Price $
             {price}

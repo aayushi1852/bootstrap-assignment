@@ -17,9 +17,9 @@ const Confectionary = ({img,tittle,description,qty,price}) => {
             {description} 
           </Card.Text>
           <Card.Text className='text'>
-          {qty} Products 
-            {qty === 0 ? ' Out of Stock' : ' Availeble'}
+            {qty === 0 ? ' Out of Stock' : ' Available'}
           </Card.Text>
+
           <Card.Text className='text'> Price $
             {price}
           </Card.Text>
