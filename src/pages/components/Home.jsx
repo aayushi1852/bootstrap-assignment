@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import video from '../../video/vid.mp4'
-import About from './About'
+
 
 
 const Home = () => {

@@ -6,7 +6,7 @@ const CardConfectionary = () => {
 
 
   
-  const ConfectionaryCardFood = (ConfectionaryCard, index) => {
+  const confectionaryCard = (ConfectionaryCard, index) => {
     return (
 
       <Confectionary key={index}
@@ -24,7 +24,7 @@ const CardConfectionary = () => {
       <div className='gridheaderc'>
             <h3>Confectionary</h3>   
      <div className='grid'>
-             {confectionaryInfo.map(ConfectionaryCardFood)}  
+             {confectionaryInfo.map(confectionaryCard)}  
       </div>
 
         

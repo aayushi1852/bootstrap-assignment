@@ -6,7 +6,7 @@ import {FoodInfo} from './db'
 
 const CardFood = () => {
 
-  const renderCardFood = (FoodCard, index) => {
+  const foodCard = (FoodCard, index) => {
     return (
 
       <Food key={index}
@@ -23,7 +23,7 @@ const CardFood = () => {
       <div className='gridheader'>
             <h3>Food</h3>   
             <div className='grid'>
-                {FoodInfo.map(renderCardFood)}  
+                {FoodInfo.map(foodCard)}  
             </div>
              
       </div>

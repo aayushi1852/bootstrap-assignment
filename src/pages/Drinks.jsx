@@ -1,8 +1,5 @@
 import React from 'react'
-
-// import { Card } from 'react-bootstrap';
 import { Button,Card } from 'react-bootstrap';
-
 import styles from "./WaitList.module.css"
 
 

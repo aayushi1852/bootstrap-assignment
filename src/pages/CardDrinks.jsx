@@ -5,7 +5,7 @@ import {drinksInfo} from './db'
 
 const CardDrinks = () => {
   
-  const DrinksCardFood = (DrinksCard, index) => {
+  const drinksCard = (DrinksCard, index) => {
     return (
 
       <Drinks key={index}
@@ -23,7 +23,7 @@ const CardDrinks = () => {
       <div className='gridheader'>
          <h3>Drinks</h3>
           <div className='grid'>
-              {drinksInfo.map(DrinksCardFood)}  
+              {drinksInfo.map(drinksCard)}  
           </div> 
 
       </div>
