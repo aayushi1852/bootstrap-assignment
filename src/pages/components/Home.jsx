@@ -16,7 +16,6 @@ const Home = () => {
         <li> <Link to="/drinks">Drinks</Link></li>
        
     </div>
-    {/* <About /> */}
   </div>
   )
 }

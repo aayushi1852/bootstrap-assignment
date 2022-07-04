@@ -13,6 +13,8 @@ const CardFood = () => {
       tittle = {FoodCard.tittle}
       description={FoodCard.description}
       img={FoodCard.img}
+      qty={FoodCard.qty}
+      price={FoodCard.price}
       />
     );
   };

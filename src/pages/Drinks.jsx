@@ -1,11 +1,12 @@
 import React from 'react'
 
-import { Card } from 'react-bootstrap';
+// import { Card } from 'react-bootstrap';
+import { Button,Card } from 'react-bootstrap';
 
 import styles from "./WaitList.module.css"
 
 
-const Food = ({img,tittle,description}) => {
+const Drinks = ({img,tittle,description,qty,price}) => {
     
 return (
   
@@ -18,12 +19,19 @@ return (
               <Card.Text className='text'>
                 {description} 
               </Card.Text>
-              <button className ={styles.button}> Pre Order </button>
+              <Card.Text className='text'>
+            {qty} Procusts 
+            {qty === 0 ? ' Out of Stock' : ' Availeble'}
+          </Card.Text>
+          <Card.Text className='text'> Price: $
+             {price}
+          </Card.Text>
+             {qty === 0 ? <button className ={styles.button}> Pre Order </button> : <Button variant="primary">Order Now</Button>} 
         </Card.Body>
     </Card>
   </div>
     )
 }
   
-export default Food
+export default Drinks
 

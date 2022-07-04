@@ -1,8 +1,9 @@
 import React from 'react'
 import { Button,Card } from 'react-bootstrap';
+import styles from "./WaitList.module.css"
 
 
-const Confectionary = ({img,tittle,description}) => {
+const Confectionary = ({img,tittle,description,qty,price}) => {
 
  
   return (
@@ -15,7 +16,14 @@ const Confectionary = ({img,tittle,description}) => {
           <Card.Text className='text'>
             {description} 
           </Card.Text>
-          <Button variant="primary">Order Now</Button>
+          <Card.Text className='text'>
+          {qty} Procusts 
+            {qty === 0 ? ' Out of Stock' : ' Availeble'}
+          </Card.Text>
+          <Card.Text className='text'> Price $
+            {price}
+          </Card.Text>
+          {qty === 0 ? <button className ={styles.button}> Pre Order </button> : <Button variant="primary">Order Now</Button>} 
         </Card.Body>
      </Card>
 </div>

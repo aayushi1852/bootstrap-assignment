@@ -6,13 +6,15 @@ const CardConfectionary = () => {
 
 
   
-  const ConfectionaryCardFood = (FoodCard, index) => {
+  const ConfectionaryCardFood = (ConfectionaryCard, index) => {
     return (
 
       <Confectionary key={index}
-      tittle = {FoodCard.tittle}
-      description={FoodCard.description}
-      img={FoodCard.img} 
+      tittle = {ConfectionaryCard.tittle}
+      description={ConfectionaryCard.description}
+      img={ConfectionaryCard.img} 
+      qty={ConfectionaryCard.qty}
+      price={ConfectionaryCard.price}
       />
     );
   };
