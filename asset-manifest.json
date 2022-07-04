@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bootstrap-assignment/static/css/main.004f12b4.css",
-    "main.js": "/bootstrap-assignment/static/js/main.0dbfc755.js",
+    "main.css": "/bootstrap-assignment/static/css/main.a6b9812c.css",
+    "main.js": "/bootstrap-assignment/static/js/main.ad1e33a3.js",
     "static/js/787.9b79b50a.chunk.js": "/bootstrap-assignment/static/js/787.9b79b50a.chunk.js",
     "static/media/vid.mp4": "/bootstrap-assignment/static/media/vid.772e6ed46f0760bcee0b.mp4",
     "static/media/back.jpg": "/bootstrap-assignment/static/media/back.fc50740b3d469fdae429.jpg",
@@ -11,12 +11,12 @@
     "static/media/yam.jpeg": "/bootstrap-assignment/static/media/yam.b6b2d775338ceb307b13.jpeg",
     "static/media/ch-cake.jpeg": "/bootstrap-assignment/static/media/ch-cake.ca63d516c2845539aa75.jpeg",
     "index.html": "/bootstrap-assignment/index.html",
-    "main.004f12b4.css.map": "/bootstrap-assignment/static/css/main.004f12b4.css.map",
-    "main.0dbfc755.js.map": "/bootstrap-assignment/static/js/main.0dbfc755.js.map",
+    "main.a6b9812c.css.map": "/bootstrap-assignment/static/css/main.a6b9812c.css.map",
+    "main.ad1e33a3.js.map": "/bootstrap-assignment/static/js/main.ad1e33a3.js.map",
     "787.9b79b50a.chunk.js.map": "/bootstrap-assignment/static/js/787.9b79b50a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.004f12b4.css",
-    "static/js/main.0dbfc755.js"
+    "static/css/main.a6b9812c.css",
+    "static/js/main.ad1e33a3.js"
   ]
 }
