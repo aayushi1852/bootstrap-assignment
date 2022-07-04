@@ -17,7 +17,7 @@ return (
             {description} 
           </Card.Text>
           <Card.Text className='text'>
-          {qty} Procusts 
+          {qty} Products 
             {qty === 0 ? ' Out of Stock' : ' Availeble'}
           </Card.Text>
           <Card.Text className='text'> Price $
