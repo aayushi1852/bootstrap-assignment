@@ -135,7 +135,7 @@ export const FoodInfo = [
       
       tittle: "Barfi",
       description: "Barfi is a popular Indian milk based sweet recipe.Milk Barfi or Milk Powder Burfi is a super delicious and one of the best gluten free, no bake dessert.",
-      img: require("../img/carrott.jpeg"),
+      img: require("../img/barfi.jpeg"),
       qty: 11,
       price: 69
       
